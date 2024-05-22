@@ -16,6 +16,11 @@ $(document).ready(function(){
             tel: {
                 required: true
             }
+        },
+        messages: {
+            nome: 'Por favor, insira o seu nome',
+            email: 'Por favor, insira o seu E-mail',
+            tel: 'Por favor, insira o seu telefone'
         }
     })
 })
